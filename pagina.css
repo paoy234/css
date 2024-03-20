@@ -1,0 +1,46 @@
+/* Estilos para la barra de navegación */
+nav {
+    background-color: #ff99cc; /* Color de fondo rosado */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: white; /* Texto de los enlaces en blanco */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Estilos para el encabezado */
+  header {
+    background-color: #cc66ff; /* Color de fondo morado */
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Estilos para la sección de productos */
+  .product-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .product-item {
+    text-align: center;
+  }
+  
+  .product-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    background-color: #ff99cc;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
